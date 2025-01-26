@@ -21,11 +21,15 @@ const Header = () => {
         }
     }, [])
 
+    function handleClick () {
+        window.location.href = '/'
+    }
+
     return(
 
         <div className={ `${styles["navigation"]} ${scrolled? styles["sticky"] : ''}`}>
 
-            <Image className={styles.logo} src={'/logo-side.png'} alt='' height={100} width={230}></Image>
+            <Image onClick={handleClick} className={styles.logo} src={'/logo-side.png'} alt='' height={100} width={230}></Image>
 
             <div className={styles.wrapper}>
                 <div className={styles.listWrapper}>

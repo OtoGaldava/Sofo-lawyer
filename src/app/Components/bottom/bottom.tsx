@@ -1,15 +1,21 @@
+"use client"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import styles from './bottom.module.css'
 import ContactInfo from '../contactInfo/contactInfo';
 import Image from 'next/image';
 
 const Bottom = () => {
+
+    function handleClick () {
+        window.location.href = '/'
+    }
+
     return(
         <div className={styles.section}>
             <div className={styles.sectionWrapper}>
 
                 <div className={styles.branding}>
-                    <Image src={'/Logo.png'} alt='' height={250} width={300}></Image>
+                    <Image onClick={handleClick} className={styles.logo} src={'/Logo.png'} alt='' height={250} width={300}></Image>
                     <span className={styles.brandingTxt}>ადვოკატი სოფო ბერძენიშვილი მზად არის გაგიწიოთ მაღალკვალიფიციური, სწრაფი და ხარისხიანი იურიდიული/საადვოკატო მომსახურება.</span>
                 </div>
 
