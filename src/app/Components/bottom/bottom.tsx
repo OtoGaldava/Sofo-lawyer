@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Logo from '../logo/logo';
 import styles from './bottom.module.css'
 import ContactInfo from '../contactInfo/contactInfo';
+import Image from 'next/image';
 
 const Bottom = () => {
     return(
@@ -9,7 +9,7 @@ const Bottom = () => {
             <div className={styles.sectionWrapper}>
 
                 <div className={styles.branding}>
-                    <Logo></Logo>
+                    <Image src={'/Logo.png'} alt='' height={250} width={300}></Image>
                     <span className={styles.brandingTxt}>ადვოკატი სოფო ბერძენიშვილი მზად არის გაგიწიოთ მაღალკვალიფიციური, სწრაფი და ხარისხიანი იურიდიული/საადვოკატო მომსახურება.</span>
                 </div>
 
@@ -18,8 +18,8 @@ const Bottom = () => {
 
                     <ul className={styles.ul}>
                         <li className={styles.li}><a className={styles.href} href=''>ჩვენ შესახებ</a></li>
-                        <li className={styles.li}><a className={styles.href} href=''>სერვისი</a></li>
-                        <li className={styles.li}><a className={styles.href} href=''>კონტაქტი</a></li>
+                        <li className={styles.li}><a className={styles.href} href='/services'>სერვისი</a></li>
+                        <li className={styles.li}><a className={styles.href} href='/contacts'>კონტაქტი</a></li>
                     </ul>
                 </div>
 
