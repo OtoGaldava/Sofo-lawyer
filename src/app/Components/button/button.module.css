@@ -1,0 +1,11 @@
+.main {
+    background-color: #b68c5a;
+    padding: 13px 45px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 29px;
+    text-transform: uppercase;
+    overflow: hidden;
+    text-align: center;
+}

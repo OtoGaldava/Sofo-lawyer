@@ -13,6 +13,7 @@
 html,
 body {
   max-width: 100vw;
+  /* height: 4000px; */
   overflow-x: hidden;
 }
 
@@ -33,6 +34,38 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Frank Ruhl Libre", serif;
+  color: #162542;
+  margin: 0px;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 80px;
+  color: white;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 35px;
+}
+
+p {
+  font-family: "Karla", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: #666666;
+  font-size: 17px;
+  line-height: 32px;
+  margin: 0px;
 }
 
 @media (prefers-color-scheme: dark) {

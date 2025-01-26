@@ -1,0 +1,20 @@
+.phone {
+    width: 20px;
+    height: 20px;
+}
+
+.contactWrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact a:hover {
+    color: #b68c5a
+}

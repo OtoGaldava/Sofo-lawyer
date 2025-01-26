@@ -1,0 +1,17 @@
+.main {
+    border: 1px solid #adadad;
+    background-color: transparent;
+    padding: 13px 45px;
+    color: #b9b9b9;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 29px;
+    text-transform: uppercase;
+    overflow: hidden;
+    text-align: center;
+}
+
+.main:hover {
+    border: 1px solid #b68c5a;
+    color: #fff;
+}
