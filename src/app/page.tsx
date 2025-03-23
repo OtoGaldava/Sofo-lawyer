@@ -4,7 +4,7 @@ import Header from "./Components/header/header";
 import Section from "./Components/firstSection/firstSection";
 import Bottom from "./Components/bottom/bottom";
 import Services from "./services/page";
-import About from "./about/about";
+import About from "./about/page";
 
 export default function Home() {
   return (

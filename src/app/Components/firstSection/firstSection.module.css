@@ -75,3 +75,36 @@
     align-items: center;
     gap: 20px;
 }
+
+.mobile {
+    display: none;
+}
+
+
+@media screen and (max-width: 915px) {
+    .main {
+        background-color: #26385f5b;
+    }
+
+    .mainTxt {
+        font-size: 30px;
+    }
+
+    .image {
+        display: none;
+        width: 100vw;
+    }
+
+    .mobile {
+        height: 696px;
+        width: 100vw;
+        z-index: 0;
+        display: block;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .mobImage {
+        width: 100%;
+    }
+}

@@ -15,3 +15,11 @@
     border: 1px solid #b68c5a;
     color: #fff;
 }
+
+@media screen and (max-width: 915px) {
+    .main {
+        padding: 10px 5%;
+        font-size: 18px;
+        max-height: 49px;
+    }
+}

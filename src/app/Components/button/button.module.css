@@ -9,3 +9,10 @@
     overflow: hidden;
     text-align: center;
 }
+
+@media screen and (max-width: 915px) {
+    .main {
+        padding: 10px 5%;
+        font-size: 18px;
+    }
+}

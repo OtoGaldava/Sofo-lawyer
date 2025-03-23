@@ -50,3 +50,11 @@
 .title {
     font-size: 30px;
 }
+
+
+@media screen and (max-width: 915px) {
+    .servicesWrapper {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}

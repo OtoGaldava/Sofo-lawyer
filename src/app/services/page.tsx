@@ -27,7 +27,7 @@ const Services = () => {
                     <Service title={'მოქალაქეობის მიღება/მინიჭება'}></Service>
                     <Service title={'უძრავი ქონების პრივატიზაცია'}></Service>
                     <Service title={'ბინადრობის ნებართვები'}></Service>
-                    <Service title={'არასრულწლოვნებთან დაკავშირებული საკითხები'} flex={true}></Service>
+                    <Service title={'არასრულწლოვნების საკითხები'} flex={true}></Service>
                 </div>
             </div>
         </div>
