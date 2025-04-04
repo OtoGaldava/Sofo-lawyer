@@ -1,13 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  basePath: "/Sofo-lawyer", 
   output: "export",
   distDir: "dist",
   images: {
     unoptimized: true,
   },
-  basePath: "/Sofo-lawyer", 
-  assetPrefix: "/Sofo-lawyer/", 
 };
 
 export default nextConfig;

@@ -6,6 +6,7 @@ import Button from '../button/button';
 import Image from 'next/image';
 import BurgerMenu from '../burgerMenu/burgerMenu';
 import MenuDisplay from '../burgerMenu/menu/menuDisplay';
+import { useRouter } from 'next/router';
 
 const Header = () => {
     const [scrolled, setScrolled] = useState(false)
@@ -61,7 +62,7 @@ const Header = () => {
 
             <div className={ `${styles["navigation"]} ${styles['Mobile']} ${scrolled? styles["sticky"] : ''}`}>
                 <div className={styles.mobWrapper}>
-                    <Image onClick={handleClick} className={styles.logo} src={'/logo-side.png'} alt='' height={100} width={230}></Image>
+                    <Image onClick={handleClick} className={styles.logo} src={'logo-side.png'} alt='' height={100} width={230}></Image>
 
                     <div className={styles.button} onClick={changeButton}>
                         <BurgerMenu xMark={menu}></BurgerMenu>
