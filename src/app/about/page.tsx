@@ -2,12 +2,12 @@ import styles from './about.module.css'
 import Image from 'next/image';
 
 type Props = {
-    padding?: string
+    padd?: string
 }
 
 const About = (props: Props) => {
     let className;
-    if (props.padding == '') {
+    if (props.padd == 'yes') {
         className = 'noPadding'
     } else {className = 'container'}
 

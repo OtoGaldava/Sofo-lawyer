@@ -11,7 +11,7 @@ export default function Home() {
     <div>
       {/* <Header></Header> */}
       <Section></Section>
-      <About padding=""></About>
+      <About padd="yes"></About>
       <Services></Services>
 
       {/* <Bottom></Bottom> */}

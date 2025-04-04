@@ -1,16 +1,16 @@
 {
-  "homepage": "https://OtoGaldava.github.io/Sofo-lawyer",
+  "homepage": "https://otogaldava.github.io/Sofo-lawyer/",
   "name": "sofo-lawyer",
   "version": "0.1.0",
   "private": true,
 "scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "export": "next export",
   "start": "next start",
-  "lint": "next lint",
-  "predeploy": "npm run build && npm run export",
-  "deploy": "gh-pages -d out"
+  "build": "next build",
+  "dev": "next dev",
+  "eject": "next eject",
+  "predeploy": "npm run build", 
+  "deploy": "gh-pages -d build",
+  "lint": "next lint"
 },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
