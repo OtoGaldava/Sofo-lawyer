@@ -9,7 +9,7 @@
   "dev": "next dev",
   "eject": "next eject",
   "predeploy": "npm run build", 
-  "deploy": "gh-pages -d build",
+  "deploy": "gh-pages -d out",
   "lint": "next lint"
 },
   "dependencies": {
