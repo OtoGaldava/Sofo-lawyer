@@ -11,7 +11,7 @@ export default function Home() {
     <div>
       {/* <Header></Header> */}
       <Section></Section>
-      <About padd="yes"></About>
+      <About></About>
       <Services></Services>
 
       {/* <Bottom></Bottom> */}

@@ -1,19 +1,11 @@
 import styles from './about.module.css'
 import Image from 'next/image';
 
-type Props = {
-    padd?: string
-}
-
-const About = (props: Props) => {
-    let className;
-    if (props.padd == 'yes') {
-        className = 'noPadding'
-    } else {className = 'container'}
+const About = () => {
 
     return(
         <div className={styles.section}>
-            <div className={styles[`${className}`]}>
+            <div className={styles.container}>
 
                 <div className={styles.knowledge}>
 
