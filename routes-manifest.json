@@ -2,16 +2,8 @@
   "version": 3,
   "pages404": true,
   "caseSensitive": false,
-  "basePath": "/Sofo-lawyer",
+  "basePath": "",
   "redirects": [
-    {
-      "source": "/Sofo-lawyer",
-      "destination": "/Sofo-lawyer/",
-      "basePath": false,
-      "internal": true,
-      "statusCode": 308,
-      "regex": "^/Sofo-lawyer$"
-    },
     {
       "source": "/:file((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/]+\\.\\w+)/",
       "destination": "/:file",
@@ -84,15 +76,5 @@
     "pathHeader": "x-nextjs-rewritten-path",
     "queryHeader": "x-nextjs-rewritten-query"
   },
-  "rewrites": {
-    "beforeFiles": [
-      {
-        "source": "/Sofo-lawyer//_next/:path+",
-        "destination": "/Sofo-lawyer/_next/:path+",
-        "regex": "^/Sofo-lawyer//_next(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))(?:/)?$"
-      }
-    ],
-    "afterFiles": [],
-    "fallback": []
-  }
+  "rewrites": []
 }
