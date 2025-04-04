@@ -1,17 +1,82 @@
 .section {
     width: 100%;
-    height: 600px; /* remove when needed*/
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: whitesmoke;
-    border-bottom: 2px solid black;
 }
 
-.wrapper {
-    width: 80%;
+.container {
+    width: 90%;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 150px;
     padding: 175px 0;
 }
+
+.noPadding {
+    padding: 175px 0 0 0;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+.knowledge {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+}
+
+
+.headerText {
+    font-size: 42px;
+    font-family: "Frank Ruhl Libre", serif;
+    color: #162542;
+    margin: 0px;
+    font-weight: 600;
+
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.paragraph {
+    font-family: "Karla", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #666666;
+    font-size: 19px;
+    line-height: 32px;
+}
+
+.textContainer {
+    max-width: 800px;
+}
+
+.mobImage {
+    display: none;
+}
+
+@media screen and (max-width: 1100px) {
+    .knowledge {
+        flex-direction: column;
+    }
+
+    .pcImage {
+        display: none;
+    }
+
+    .mobImage {
+        display: block;
+    }
+}  

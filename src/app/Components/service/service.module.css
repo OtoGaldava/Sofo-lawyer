@@ -15,7 +15,6 @@
     font-family: "Karla", sans-serif;
     font-weight: normal;
     font-style: normal;
-    cursor: pointer;
 }
 
 .flex {
@@ -34,7 +33,6 @@
     font-family: "Karla", sans-serif;
     font-weight: normal;
     font-style: normal;
-    cursor: pointer;
 }
 
 .wrapper:hover {

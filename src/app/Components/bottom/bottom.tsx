@@ -23,7 +23,7 @@ const Bottom = () => {
                     <h4 className={styles.title}>გვერდები</h4>
 
                     <ul className={styles.ul}>
-                        <li className={styles.li}><a className={styles.href} href=''>ჩვენ შესახებ</a></li>
+                        <li className={styles.li}><a className={styles.href} href='/about'>ჩვენ შესახებ</a></li>
                         <li className={styles.li}><a className={styles.href} href='/services'>სერვისი</a></li>
                         <li className={styles.li}><a className={styles.href} href='/contacts'>კონტაქტი</a></li>
                     </ul>

@@ -23,7 +23,7 @@ const Section = () => {
 
                     <div className={styles.buttonWrapper}>
                         <Button href='/contacts' title='კონსულტაცია'></Button>
-                        <InvisButton href='' title='ჩვენ შესახებ'></InvisButton>
+                        <InvisButton href='/about' title='ჩვენ შესახებ'></InvisButton>
                     </div>
                 </div>
             </div>
