@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import styles from './menuDisplay.module.css'
+import Link from 'next/link';
 
 type Props = {
     visible: string;
@@ -10,9 +11,9 @@ const MenuDisplay = (props: Props) => {
     return(
         <div className={`${styles['main']} ${styles[props.visible]}`}>
             <div className={styles.wrapper}>
-                <a className={styles.href} href='/about'>ჩვენ შესახებ</a>
-                <a className={styles.href} href='/services'>სერვისი</a>
-                <a className={styles.href} href='/contacts'>კონტაქტი</a>
+                <Link href="/about" className={styles.href}>ჩვენ შესახებ</Link>
+                <Link href="/services" className={styles.href}>სერვისი</Link>
+                <Link href="/contacts" className={styles.href}>კონტაქტი</Link>
             </div>
         </div>
     );

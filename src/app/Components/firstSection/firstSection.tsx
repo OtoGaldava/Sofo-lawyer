@@ -29,11 +29,11 @@ const Section = () => {
             </div>
 
             <div className={styles.image}>
-                <Image src={'/best.jpg'} alt={''} width={400} height={700}></Image>
+                <Image src={'/Sofo-lawyer/best.jpg'} alt={''} width={400} height={700}></Image>
             </div>
 
             <div className={styles.mobile}>
-                <Image className={styles.mobImage} src={'/best.jpg'} alt={''} width={430} height={700}></Image>
+                <Image className={styles.mobImage} src={'/Sofo-lawyer/best.jpg'} alt={''} width={430} height={700}></Image>
             </div>
         </div>
     );

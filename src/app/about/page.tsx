@@ -1,16 +1,25 @@
 import styles from './about.module.css'
 import Image from 'next/image';
 
-const About = () => {
+type Props = {
+    classname: string;
+}
+
+const About = (props: Props) => {
+    let style = 'noPadding'
+
+    if (props.classname == undefined) {
+        style = 'container'
+    }
 
     return(
         <div className={styles.section}>
-            <div className={styles.container}>
+            <div className={styles[style]}>
 
                 <div className={styles.knowledge}>
 
-                    <Image className={styles.pcImage} alt='' width='400' height='700' src='/best.jpg'></Image>            
-                    <img className={styles.mobImage} src='/best.jpg'></img>          
+                    <Image className={styles.pcImage} alt='' width='400' height='700' src='/Sofo-lawyer/best.jpg'></Image>            
+                    <img className={styles.mobImage} src='/Sofo-lawyer/best.jpg'></img>          
                     <div className={styles.textContainer}>
                         <div className={styles.headerText}>განათლება</div>
                         <div className={styles.text}>
@@ -58,8 +67,8 @@ const About = () => {
                             <p className={styles.paragraph}>სოფიო ბერძენიშვილი სადვოკატო ბიურო გთავაზობთ სრულ საადვოკატო მომსახურებას აქ დაგხვდებათ თქვენთვის მისაღები და კომფორრტული გარემო, სადაც მიიღებთ კვალიფიციურ მომსახურებს. სოფიო ბერძენიშვილის ბიურო აქტიურად თანამშრომლობს კვალიფიციურ ნოტარიუსებთან, თარჯიმნებთან, ექპერტებთან  </p>
                         </div>
                     </div>
-                    <Image className={styles.pcImage} alt='' width='400' height='650' src='/zoomed.png'></Image> 
-                    <img className={styles.mobImage} src='/zoomed.png'></img>          
+                    <Image className={styles.pcImage} alt='' width='400' height='650' src='/Sofo-lawyer/zoomed.png'></Image> 
+                    <img className={styles.mobImage} src='/Sofo-lawyer/zoomed.png'></img>          
                 </div>
             </div>
         </div>

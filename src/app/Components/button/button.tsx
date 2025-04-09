@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from './button.module.css'
 
 type Props = {
@@ -7,7 +8,7 @@ type Props = {
 
 const Button = (props: Props) => {
     return(
-        <a className={styles.main} href={props.href}>{props.title}</a>
+        <Link href={props.href} className={styles.main}>{props.title}</Link>
     );
 }
 

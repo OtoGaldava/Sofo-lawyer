@@ -3,11 +3,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import styles from './bottom.module.css'
 import ContactInfo from '../contactInfo/contactInfo';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Bottom = () => {
 
     function handleClick () {
-        window.location.href = '/'
+        window.location.href = '/Sofo-lawyer'
     }
 
     return(
@@ -15,7 +16,7 @@ const Bottom = () => {
             <div className={styles.sectionWrapper}>
 
                 <div className={styles.branding}>
-                    <Image onClick={handleClick} className={styles.logo} src={'/Logo.png'} alt='' height={250} width={300}></Image>
+                    <Image onClick={handleClick} className={styles.logo} src={'/Sofo-lawyer/Logo.png'} alt='' height={250} width={300}></Image>
                     <span className={styles.brandingTxt}>ადვოკატი სოფო ბერძენიშვილი მზად არის გაგიწიოთ მაღალკვალიფიციური, სწრაფი და ხარისხიანი იურიდიული/საადვოკატო მომსახურება.</span>
                 </div>
 
@@ -23,9 +24,9 @@ const Bottom = () => {
                     <h4 className={styles.title}>გვერდები</h4>
 
                     <ul className={styles.ul}>
-                        <li className={styles.li}><a className={styles.href} href='/about'>ჩვენ შესახებ</a></li>
-                        <li className={styles.li}><a className={styles.href} href='/services'>სერვისი</a></li>
-                        <li className={styles.li}><a className={styles.href} href='/contacts'>კონტაქტი</a></li>
+                        <Link href="/about" className={styles.li}>ჩვენ შესახებ</Link>
+                        <Link href="/services" className={styles.li}>სერვისი</Link>
+                        <Link href="/contacts" className={styles.li}>კონტაქტი</Link>
                     </ul>
                 </div>
 

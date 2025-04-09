@@ -7,6 +7,7 @@ import Image from 'next/image';
 import BurgerMenu from '../burgerMenu/burgerMenu';
 import MenuDisplay from '../burgerMenu/menu/menuDisplay';
 import { useRouter } from 'next/router';
+import Link from 'next/link';
 
 const Header = () => {
     const [scrolled, setScrolled] = useState(false)
@@ -38,20 +39,20 @@ const Header = () => {
     }
 
     function handleClick () {
-        window.location.href = '/'
+        window.location.href = '/Sofo-lawyer'
     }
 
     return(
         <>
             <div className={ `${styles["navigation"]} ${styles['Pc']} ${scrolled? styles["sticky"] : ''}`}>
 
-                <Image onClick={handleClick} className={styles.logo} src={'/logo-side.png'} alt='' height={100} width={230}></Image>
+                <Image onClick={handleClick} className={styles.logo} src={'/Sofo-lawyer/logo-side.png'} alt='' height={100} width={230}></Image>
 
                 <div className={styles.wrapper}>
                     <div className={styles.listWrapper}>
-                        <a className={styles.href} href='/about'>ჩვენ შესახებ</a>
-                        <a className={styles.href} href='/services'>სერვისი</a>
-                        <a className={styles.href} href='/contacts'>კონტაქტი</a>
+                        <Link href="/about" className={styles.href}>ჩვენ შესახებ</Link>
+                        <Link href="/services" className={styles.href}>სერვისი</Link>
+                        <Link href="/contacts" className={styles.href}>კონტაქტი</Link>
                     </div>
 
                     <div className={styles.buttonWrapper}>
