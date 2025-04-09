@@ -1,25 +1,15 @@
 import styles from './about.module.css'
 import Image from 'next/image';
 
-type Props = {
-    classname: string;
-}
-
-const About = (props: Props) => {
-    let style = 'noPadding'
-
-    if (props.classname == undefined) {
-        style = 'container'
-    }
-
+const About = () => {
     return(
         <div className={styles.section}>
-            <div className={styles[style]}>
+            <div className={styles.container}>
 
                 <div className={styles.knowledge}>
 
                     <Image className={styles.pcImage} alt='' width='400' height='700' src='/Sofo-lawyer/best.jpg'></Image>            
-                    <img className={styles.mobImage} src='/Sofo-lawyer/best.jpg'></img>          
+                    <img className={styles.mobImage} src="/Sofo-lawyer/best.jpg" alt="Best Image" />          
                     <div className={styles.textContainer}>
                         <div className={styles.headerText}>განათლება</div>
                         <div className={styles.text}>
@@ -68,7 +58,7 @@ const About = (props: Props) => {
                         </div>
                     </div>
                     <Image className={styles.pcImage} alt='' width='400' height='650' src='/Sofo-lawyer/zoomed.png'></Image> 
-                    <img className={styles.mobImage} src='/Sofo-lawyer/zoomed.png'></img>          
+                    <img className={styles.mobImage} src="/Sofo-lawyer/zoomed.png" alt="Best Image" />          
                 </div>
             </div>
         </div>
