@@ -13,10 +13,10 @@ const Section = () => {
                     <div className={styles.mainTxtWrapper}>
                         <div className={styles.nameWrapper}>
                             <div className={styles.line}></div>
-                            <div className={styles.name}>სოფო ბერძენიშვილი</div>
+                            <div className={styles.name}>სოიფო ბერძენიშვილი</div>
                         </div>
 
-                        <div className={styles.mainTxt}>თქვენი სანდო ადვოკატი</div>
+                        <div className={styles.mainTxt}>თქვენი სანდო მრჩეველი ურიდიულ საკითხებში</div>
                     </div>
 
                     <div className={styles.experience}>18 წლიანი გამოცდილება</div>
