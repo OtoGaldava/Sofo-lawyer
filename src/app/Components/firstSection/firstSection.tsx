@@ -16,7 +16,7 @@ const Section = () => {
                             <div className={styles.name}>სოფო ბერძენიშვილი</div>
                         </div>
 
-                        <div className={styles.mainTxt}>თქვენი პარტნიორი სამართლებრივ საკითხებში</div>
+                        <div className={styles.mainTxt}>თქვენი სანდო ადვოკატი</div>
                     </div>
 
                     <div className={styles.experience}>18 წლიანი გამოცდილება</div>
