@@ -7,13 +7,7 @@ const Services = () => {
             <div className={styles.wrapper}>
 
                 <div className={styles.contentWrapper}>
-                    {/* <div className={styles.subTitleWrapper}>
-                        <div className={styles.line}></div>
-                        <h3 className={styles.subTitle}>მომსახურების სფერო</h3>
-                        <div className={styles.line}></div>
-                    </div> */}
-
-                    <h3 className={styles.title}>მომსახურების სფერო</h3>
+                    <h2 className={styles.title}>მომსახურების სფერო</h2>
                 </div>
 
                 <div className={styles.servicesWrapper}>

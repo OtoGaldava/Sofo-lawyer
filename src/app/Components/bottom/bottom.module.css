@@ -77,6 +77,11 @@
     gap: 15px;
 }
 
+.brandingTxt {
+    font-size: 20px;
+    color: #8e97aa;
+}
+
 @media screen and (max-width: 915px) {
     .section {
         width: 100vw;

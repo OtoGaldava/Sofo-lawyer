@@ -16,7 +16,7 @@ const Section = () => {
                             <div className={styles.name}>სოიფო ბერძენიშვილი</div>
                         </div>
 
-                        <div className={styles.mainTxt}>თქვენი სანდო მრჩეველი ურიდიულ საკითხებში</div>
+                        <h1 className={styles.mainTxt}>თქვენი სანდო ადვოკატი ურიდიულ საკითხებში</h1>
                     </div>
 
                     <div className={styles.experience}>18 წლიანი გამოცდილება</div>
@@ -29,11 +29,11 @@ const Section = () => {
             </div>
 
             <div className={styles.image}>
-                <Image src={'/Sofo-lawyer/best.jpg'} alt={''} width={400} height={700}></Image>
+                <Image src={'/Sofo-lawyer/lawyer.jpg'} alt={'Advokati tbilisshi - პროფესიონალი ადვოკატი თბილისში სამართლებრივი კონსულტაციისთვის'} width={400} height={700}></Image>
             </div>
 
             <div className={styles.mobile}>
-                <Image className={styles.mobImage} src={'/Sofo-lawyer/best.jpg'} alt={''} width={430} height={700}></Image>
+                <Image className={styles.mobImage} src={'/Sofo-lawyer/lawyer.jpg'} alt={'პროფესიონალი advokati tbilisshi - იურიდიული კონსულტაცია თბილისში სამართლებრივი კონსულტაციისთვის'} width={430} height={700}></Image>
             </div>
         </div>
     );

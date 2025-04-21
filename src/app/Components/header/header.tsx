@@ -46,7 +46,7 @@ const Header = () => {
         <>
             <div className={ `${styles["navigation"]} ${styles['Pc']} ${scrolled? styles["sticky"] : ''}`}>
 
-                <Image onClick={handleClick} className={styles.logo} src={'/Sofo-lawyer/logo-side.png'} alt='' height={100} width={230}></Image>
+                <Image onClick={handleClick} className={styles.logo} src={'/Sofo-lawyer/logo-side.png'} alt='lawyer logo' height={100} width={230}></Image>
 
                 <div className={styles.wrapper}>
                     <div className={styles.listWrapper}>
@@ -63,7 +63,7 @@ const Header = () => {
 
             <div className={ `${styles["navigation"]} ${styles['Mobile']} ${scrolled? styles["sticky"] : ''}`}>
                 <div className={styles.mobWrapper}>
-                    <Image onClick={handleClick} className={styles.logo} src={'/Sofo-lawyer/logo-side.png'} alt='' height={100} width={230}></Image>
+                    <Image onClick={handleClick} className={styles.logo} src={'/Sofo-lawyer/logo-side.png'} alt='logo of lawyer in tbilisi' height={100} width={230}></Image>
 
                     <div className={styles.button} onClick={changeButton}>
                         <BurgerMenu xMark={menu}></BurgerMenu>

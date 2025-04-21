@@ -8,10 +8,10 @@ const About = () => {
 
                 <div className={styles.knowledge}>
 
-                    <Image className={styles.pcImage} alt='' width='400' height='700' src='/Sofo-lawyer/best.jpg'></Image>            
-                    <img className={styles.mobImage} src="/Sofo-lawyer/best.jpg" alt="Best Image" />          
+                    <Image className={styles.pcImage} alt='lawyer logo' width='400' height='700' src='/Sofo-lawyer/lawyer.jpg'></Image>            
+                    <img className={styles.mobImage} src="/Sofo-lawyer/lawyer.jpg" alt="Best Image" />          
                     <div className={styles.textContainer}>
-                        <div className={styles.headerText}>განათლება</div>
+                        <h2 className={styles.headerText}>განათლება</h2>
                         <div className={styles.text}>
                             <p className={styles.paragraph}>
                                 სოფიო ბერძენიშვილმა დაამთვრა ივანე ჯავახიშვილის სახელობის თბილისის სახელმწიფო
@@ -23,14 +23,14 @@ const About = () => {
                             <p className={styles.paragraph}>სოფიო ბერძენიშვილს გავლილი აქვს ივ. ჯავახიშვილის სახელობის თბილისის სახელმწიფო უნივერსიტეტის კომპიუტერული სწავლების ცენრტი ,, გარანტი” - ს სასწავლო კურსი</p>
                         </div>
 
-                        <div className={styles.headerText}>დამატებით ტრენინგები</div>
+                        <h2 className={styles.headerText}>დამატებით ტრენინგები</h2>
                         <div className={styles.text}>
                             <p className={styles.paragraph}>
                             სამოქალაქო სამართლის განხრით –სსიპ ადვოკატთა ასოციაციის სასწავლო ცენტრი;
                             </p>
 
                             <p className={styles.paragraph}>
-                                ადვოკატთა პროფესიული ეთიკა – სსიპ ადვოკატთა ასოციაციის სასწავლო ცენტრი;
+                                ადვოკატთა პროფესიული ეთიკა - სსიპ ადვოკატთა ასოციაციის სასწავლო ცენტრი;
                                 ადვოკატის პროფესიული ეთიკა და მისი სამართლებრივი ასპექტები, საქართველოს ადვოკატები დამოუკიდებელი პროფესიისათვის;
                                 ადამიანის ძირითადი უფელებები და თავისუფლებები, ევროპული კონვენციის და ქართული კანონმდებლობის ანალიზი;
                                 არარსრუწლოვანთა მართლმსაჯულება
@@ -43,7 +43,7 @@ const About = () => {
                 
                 <div className={styles.knowledge}>
                     <div className={styles.textContainer}>
-                        <div className={styles.headerText}>სამუშაო გამოცდილება</div>
+                        <h2 className={styles.headerText}>სამუშაო გამოცდილება</h2>
                         <div className={styles.text}>
                             <p className={styles.paragraph}>
                                 სოფიო ბერძენიშვილს გააჩნია 18 წლიანი საადვოკატო საქმიანობის გამოცდილება.
@@ -56,8 +56,8 @@ const About = () => {
                             <p className={styles.paragraph}>ხოლო 2025 წელს დააფუძნა სოფიო ბერძენიშვილის საადვოკატო ბიურო და ეწევა კერძო საადვოკატო საქმიანობას სამოქალაქო და ადმინისტრაციულ სამართალში,</p>                            
                         </div>
                     </div>
-                    <Image className={styles.pcImage} alt='' width='400' height='650' src='/Sofo-lawyer/zoomed.png'></Image> 
-                    <img className={styles.mobImage} src="/Sofo-lawyer/zoomed.png" alt="Best Image" />          
+                    <Image className={styles.pcImage} alt='პროფესიონალი ადვოკატი - სოფო ბერძენიშვილი და საადვოკატო ბიურო' width='400' height='650' src='/Sofo-lawyer/advokati.png'></Image> 
+                    <img className={styles.mobImage} src="/Sofo-lawyer/advokati.png" alt="პროფესიონალი advokati - სოფო ბერძენიშვილი და saadvokato biuro" />          
                 </div>
             </div>
         </div>
