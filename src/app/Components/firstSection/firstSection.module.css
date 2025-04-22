@@ -17,6 +17,11 @@
     }
 }
 
+.pcImage {
+    width: auto;
+    height: 700px;
+}
+
 .main {
     display: flex;
     flex-direction: column;
@@ -106,5 +111,6 @@
 
     .mobImage {
         width: 100%;
+        height: 700px;
     }
 }
