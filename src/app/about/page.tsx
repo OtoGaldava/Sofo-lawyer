@@ -8,7 +8,7 @@ const About = () => {
 
                 <div className={styles.knowledge}>
 
-                    <Image className={styles.pcImage} alt='lawyer logo' width='400' height='700' src='/Sofo-lawyer/lawyer.jpg'></Image>            
+                    <img className={styles.pcImage} alt='ადვოკატის ფოტო' src='/Sofo-lawyer/lawyer.jpg'></img>            
                     <img className={styles.mobImage} src="/Sofo-lawyer/lawyer.jpg" alt="Best Image" />          
                     <div className={styles.textContainer}>
                         <h2 className={styles.headerText}>განათლება</h2>

@@ -67,6 +67,11 @@
     display: none;
 }
 
+.pcImage {
+    width: 400px;
+    height: auto;
+}
+
 @media screen and (max-width: 1100px) {
     .knowledge {
         flex-direction: column;
