@@ -46,7 +46,7 @@ const Header = () => {
         <>
             <div className={ `${styles["navigation"]} ${styles['Pc']} ${scrolled? styles["sticky"] : ''}`}>
 
-                <Image onClick={handleClick} className={styles.logo} src={'/Sofo-lawyer/logo-side.png'} alt='lawyer logo' height={100} width={230}></Image>
+                <Image onClick={handleClick} className={styles.logo} src={'/Sofo-lawyer/logo-side.png'} alt='lawyer logo' height={128} width={230}></Image>
 
                 <div className={styles.wrapper}>
                     <div className={styles.listWrapper}>
