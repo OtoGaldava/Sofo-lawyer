@@ -110,7 +110,7 @@
     }
 
     .mobImage {
-        width: 100%;
-        height: 700px;
+        width: 400px;
+        height: auto;
     }
 }
