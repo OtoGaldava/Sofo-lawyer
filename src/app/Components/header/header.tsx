@@ -63,7 +63,7 @@ const Header = () => {
 
             <div className={ `${styles["navigation"]} ${styles['Mobile']} ${scrolled? styles["sticky"] : ''}`}>
                 <div className={styles.mobWrapper}>
-                    <Image onClick={handleClick} className={styles.logo} src={'/Sofo-lawyer/logo-side.png'} alt='logo of lawyer in tbilisi' height={100} width={230}></Image>
+                    <img onClick={handleClick} className={styles.logo} src={'/Sofo-lawyer/logo-side.png'} alt='logo of lawyer in tbilisi'></img>
 
                     <div className={styles.button} onClick={changeButton}>
                         <BurgerMenu xMark={menu}></BurgerMenu>
