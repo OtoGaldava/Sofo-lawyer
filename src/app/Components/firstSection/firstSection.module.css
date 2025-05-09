@@ -111,7 +111,7 @@
 
     .mobImage {
         width: 100%;
-        max-width: 400px;
+        max-width: 400px         ;
         height: 711px;
     }
 }
