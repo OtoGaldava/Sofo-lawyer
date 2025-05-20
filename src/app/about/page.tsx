@@ -8,8 +8,8 @@ const About = () => {
 
                 <div className={styles.knowledge}>
 
-                    <img className={styles.pcImage} alt='ადვოკატის ფოტო' src='/Sofo-lawyer/lawyer.jpg'></img>            
-                    <img className={styles.mobImage} src="/Sofo-lawyer/lawyer.jpg" alt="Best Image" />          
+                    <img className={styles.pcImage} alt='ადვოკატის ფოტო' src='/Sofo-lawyer/lawyer.webp'></img>            
+                    <img className={styles.mobImage} src="/Sofo-lawyer/lawyer.webp" alt="Best Image" />          
                     <div className={styles.textContainer}>
                         <h2 className={styles.headerText}>განათლება</h2>
                         <div className={styles.text}>

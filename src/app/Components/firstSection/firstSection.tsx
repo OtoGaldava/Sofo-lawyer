@@ -29,11 +29,11 @@ const Section = () => {
             </div>
 
             <div className={styles.image}>
-                <img className={styles.pcImage} src={'/Sofo-lawyer/lawyer.jpg'} alt={'Advokati tbilisshi - პროფესიონალი ადვოკატი თბილისში სამართლებრივი კონსულტაციისთვის'}></img>
+                <img className={styles.pcImage} src={'/Sofo-lawyer/lawyer.webp'} alt={'Advokati tbilisshi - პროფესიონალი ადვოკატი თბილისში სამართლებრივი კონსულტაციისთვის'}></img>
             </div>
 
             <div className={styles.mobile}>
-                <img className={styles.mobImage} src={'/Sofo-lawyer/lawyer.jpg'} alt={'პროფესიონალი advokati tbilisshi - იურიდიული კონსულტაცია თბილისში სამართლებრივი კონსულტაციისთვის'}></img>
+                <img className={styles.mobImage} src={'/Sofo-lawyer/lawyer.webp'} alt={'პროფესიონალი advokati tbilisshi - იურიდიული კონსულტაცია თბილისში სამართლებრივი კონსულტაციისთვის'}></img>
             </div>
         </div>
     );
