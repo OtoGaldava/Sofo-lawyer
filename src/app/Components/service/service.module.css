@@ -35,23 +35,23 @@
     font-style: normal;
 }
 
-.wrapper:hover {
-    width: 50%;
-    border: 2px solid #bfbfbf;
-    font-size: 18px;
-    color: #5a5a5a;
-}
-
-.flex:hover {
-    width: 110%;
-    border: 2px solid #bfbfbf;
-    font-size: 18px;
-    color: #5a5a5a;
-}
-
 @media screen and (min-width: 915px) {
     .flex {
         flex: 1;
+    }
+
+    .wrapper:hover {
+        width: 50%;
+        border: 2px solid #bfbfbf;
+        font-size: 18px;
+        color: #5a5a5a;
+    }
+    
+    .flex:hover {
+        width: 110%;
+        border: 2px solid #bfbfbf;
+        font-size: 18px;
+        color: #5a5a5a;
     }
 }
 

@@ -5,6 +5,7 @@ import Section from "./Components/firstSection/firstSection";
 import Bottom from "./Components/bottom/bottom";
 import Services from "./services/page";
 import About from "./about/page";
+import Links from "./Components/links/links";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Section></Section>
       <About></About>
       <Services></Services>
+      <Links></Links>
 
       {/* <Bottom></Bottom> */}
     </div>

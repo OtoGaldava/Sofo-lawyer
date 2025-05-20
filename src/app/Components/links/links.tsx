@@ -1,0 +1,36 @@
+import styles from './links.module.css'
+
+const Links = () => {
+    return(
+        <div className={styles.section}>
+            <div className={styles.wrapper}>
+                <a href='https://tcc.court.ge/' className={styles.link}>
+                    <img className={styles.img} src='https://tcc.court.ge/Content/img/tcc.png'></img>
+                    <h3 className={styles.txt}>თბილისის საქალაქო სასამართლო</h3>
+                </a>
+
+                <a href='https://police.ge/' className={styles.link}>
+                    <img className={styles.img} src='https://police.ge/_website/images/logo-ge.png'></img>
+                    <h3 className={styles.txt}>შინაგან საქმეთა სამინისტრო</h3>
+                </a>
+
+                <a href='https://www.supremecourt.ge/' className={styles.link}>
+                    <img className={styles.img} src='https://www.supremecourt.ge/uploads/files/1/news/axali%20logo.JPG'></img>
+                    <h3 className={styles.txt}>საქართველოს უზენაესი სასამართლო</h3>
+                </a>
+
+                <a href='https://www.constcourt.ge/ka' className={styles.link}>
+                    <img className={styles.img} src='https://constcourt.ge/image/614x440/61485cd72978c.jpg'></img>
+                    <h3 className={styles.txt}>საქართველოს საკონსტიტუციო სასამართლო</h3>
+                </a>
+
+                <a href='https://auction.tbilisi.gov.ge/' className={styles.link}>
+                    <img className={styles.img} src='https://static.hr.ge/hrra-prod-hrge-general/logo/56452/669d4dee-0286-44b4-9abe-8846e3316c64.png'></img>
+                    <h3 className={styles.txt}>ქონების მართვის სააგენტო</h3>
+                </a>
+            </div>
+        </div>
+    )
+}
+
+export default Links;

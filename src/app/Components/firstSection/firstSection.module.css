@@ -83,6 +83,7 @@
 
 .mobile {
     display: none;
+    background-color: #26385f;
 }
 
 
@@ -96,6 +97,7 @@
     }
 
     .image {
+        background-color: #26385f;
         display: none;
         width: 100vw;
     }
