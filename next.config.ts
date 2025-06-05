@@ -3,8 +3,8 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   output: "export",
   distDir: "dist",
-  basePath: "/Sofo-lawyer",
-  assetPrefix: "/Sofo-lawyer/",
+  // basePath: "/Sofo-lawyer",
+  // assetPrefix: "/Sofo-lawyer/",
   images: {
     unoptimized: true,
   },
