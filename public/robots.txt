@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://sofo-advokati.ge
+
+# Sitemaps
+Sitemap: https://sofo-advokati.ge/sitemap.xml
