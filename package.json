@@ -5,20 +5,22 @@
   "private": true,
   "scripts": {
     "start": "next start",
-    "build": "next build",                   
+    "build": "next build",
     "dev": "next dev",
     "eject": "next eject",
-    "predeploy": "npm run build",            
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate-sitemap": "next-sitemap"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
+    "gh-pages": "^3.2.3",
     "next": "^15.2.4",
+    "next-sitemap": "^4.2.3",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "gh-pages": "^3.2.3"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@types/node": "^20",
