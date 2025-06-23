@@ -16,7 +16,7 @@ const Bottom = () => {
             <div className={styles.sectionWrapper}>
 
                 <div className={styles.branding}>
-                    <Image onClick={handleClick} className={styles.logo} src={'/Logo.png'} alt='იურიდიული ბიუროს ლოგო' height={300} width={301}></Image>
+                    <Image onClick={handleClick} className={styles.logo} src={'/advokati-Logo.png'} alt='იურიდიული ბიუროს ლოგო' height={300} width={301}></Image>
                     <h2 className={styles.brandingTxt}>ადვოკატი სოფო ბერძენიშვილი მზად არის გაგიწიოთ მაღალკვალიფიციური, სწრაფი და ხარისხიანი იურიდიული/საადვოკატო მომსახურება.</h2>
                 </div>
 

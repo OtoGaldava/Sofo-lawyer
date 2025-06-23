@@ -3,6 +3,8 @@ import styles from './links.module.css'
 const Links = () => {
     return(
         <div className={styles.section}>
+            <h2 className={styles.headerText}>სასარგებლო ბმულები სამართლებრივი ინფორმაციისთვის</h2>
+
             <div className={styles.wrapper}>
                 <a href='https://tcc.court.ge/' className={styles.link}>
                     <img alt='logo of a lawyer' className={styles.img} src='https://tcc.court.ge/Content/img/tcc.png'></img>

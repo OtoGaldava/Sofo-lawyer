@@ -33,7 +33,7 @@ const Section = () => {
             </div>
 
             <div className={styles.mobile}>
-                <img className={styles.mobImage} src={'/lawyer.webp'} alt={'პროფესიონალი advokati tbilisshi - იურიდიული კონსულტაცია თბილისში სამართლებრივი კონსულტაციისთვის'}></img>
+                <img className={styles.mobImage} src={'/lawyer.webp'} alt={'პროფესიონალი ადვოკატი - სამართლებრივი დახმარება თბილისში'}></img>
             </div>
         </div>
     );

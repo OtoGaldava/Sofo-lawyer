@@ -1,9 +1,17 @@
 .section {
     width: 100%;
     display: flex;
+    gap: 25px;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 50px 0;
+    background-color: white;
+}
+
+.headerText {
+    display: inline;
+    font-size: 25px;
 }
 
 .wrapper {
@@ -36,11 +44,8 @@
     font-weight: 200;
 }
 
-/* @media screen and (max-width: 915px) {
-    .wrapper {
-        justify-content: center;
-        flex-direction: column;
-        flex-wrap: wrap;
-        gap: 25px;
+@media screen and (max-width: 915px) {
+    .headerText {
+        font-size: 14px;
     }
-} */
+} 
