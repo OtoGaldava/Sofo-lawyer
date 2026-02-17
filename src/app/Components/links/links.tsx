@@ -12,7 +12,7 @@ const Links = () => {
                 </a>
 
                 <a href='https://police.ge/' className={styles.link}>
-                    <img alt='logo of a police' className={styles.img} src='https://police.ge/_website/images/logo-ge.png'></img>
+                    <img alt='logo of a police' className={styles.img} src='shshsAdvokati.png'></img>
                     <h3 className={styles.txt}>შინაგან საქმეთა სამინისტრო</h3>
                 </a>
 
@@ -27,7 +27,7 @@ const Links = () => {
                 </a>
 
                 <a href='https://auction.tbilisi.gov.ge/' className={styles.link}>
-                    <img alt='logo sasamartlo' className={styles.img} src='https://static.hr.ge/hrra-prod-hrge-general/logo/56452/669d4dee-0286-44b4-9abe-8846e3316c64.png'></img>
+                    <img alt='logo sasamartlo' className={styles.img} src='tbilisiSamartali.png'></img>
                     <h3 className={styles.txt}>ქონების მართვის სააგენტო</h3>
                 </a>
             </div>
